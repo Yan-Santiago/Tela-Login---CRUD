@@ -1,0 +1,11 @@
+create table usuario (
+    id_usuario int AUTO_INCREMENT PRIMARY KEY,
+    nome_usuario varchar(50),
+    senha_usuario varchar(50)
+    );
+
+
+SELECT * FROM usuario;
+
+
+INSERT INTO usuario (nome_usuario, senha_usuario) VALUES('admin', '123');
